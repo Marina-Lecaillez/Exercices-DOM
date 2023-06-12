@@ -53,6 +53,13 @@ p {
     display: block;
 }
 
+input[type="text"] {
+    margin-left: 30%;
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+  }
+
 button {
     color: #ce478f;
     margin-top: 10px;
@@ -61,3 +68,7 @@ button {
     font-size: 100%;
 
 }
+ul {
+    list-style-type:circle;
+    margin-left: 30%;
+  }
