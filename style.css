@@ -1,16 +1,21 @@
+body {
+    font-family: 'Oswald', sans-serif;
+  }
+  
+
 h1 {
-    color: #cb2845;
+    color: #0f0f4e;
     font-size: 4em;
     text-align: center;
 }
 
 h2 {
-    color: #352b5e;
+    color: #06aa7c;
     text-align: center;
 }
 
 h3 {
-    color: #ce478f;
+    color: #06aa7c;
     text-align: center;
 }
 
@@ -21,17 +26,26 @@ p {
 }
 
 .barre {
-    color: #e099c1;
+    color: #06aa7c;
     text-align: center;
     font-size: 140%;
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid #ce478f;
+    background: rgb(6,170,124);
+    background: radial-gradient(circle, rgba(6,170,124,0.10135392047443981) 0%, rgba(36,36,181,0.1) 100%);
     margin-left: 20%;
     margin-right: 20%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    border: 2px solid #e099c1;
+    border: 2px solid #0f0f4e;
     padding: 20px;
+    border-radius: 94% 6% 93% 7% / 7% 87% 13% 93% ;
 }
+
+a:visited {
+    color: #06aa7c;
+  }
+
+  a:hover {
+    color: #0f0f4e; 
+  }
 
 #carousel {
     display: flex;
@@ -57,11 +71,16 @@ input[type="text"] {
 }
 
 button {
-    color: #ce478f;
+    color: #06aa7c;
     margin-top: 10px;
     margin-left: 30%;
     justify-content: center;
+    background: rgb(6,170,124);
+    background: linear-gradient(0deg, rgba(6,170,124,0.10135392047443981) 0%, rgba(36,36,181,0.1) 100%);
+    border: 2px solid #0f0f4e;
     font-size: 100%;
+    border-radius: 94% 6% 93% 7% / 7% 87% 13% 93% ;
+
 }
 
 ul {
@@ -71,5 +90,5 @@ ul {
 
 .green {
 
-    color: #352b5e;
+    color: #0f0f4e;
 }
