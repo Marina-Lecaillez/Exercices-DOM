@@ -32,13 +32,3 @@ function precedent() {
 
 boutonSuivant.addEventListener("click", suivant);
 boutonPrecedent.addEventListener("click", precedent);
-
-
-
-
-
-
-//////////////////////////
-///// MONSTER SLAYER /////
-//////////////////////////
-
