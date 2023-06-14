@@ -1,11 +1,12 @@
 body {
     font-family: 'Oswald', sans-serif;
-  }
-  
+    background-image: url(/images/arriere_plan.jpg);
+}
+
 
 h1 {
     color: #0f0f4e;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
 }
 
@@ -29,23 +30,33 @@ p {
     color: #06aa7c;
     text-align: center;
     font-size: 140%;
-    background: rgb(6,170,124);
-    background: radial-gradient(circle, rgba(6,170,124,0.10135392047443981) 0%, rgba(36,36,181,0.1) 100%);
+    background: rgb(6, 170, 124);
+    background: radial-gradient(circle, rgba(6, 170, 124, 0.2) 0%, rgba(15, 15, 78, 0.2) 100%);
     margin-left: 20%;
     margin-right: 20%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     border: 2px solid #0f0f4e;
-    padding: 20px;
-    border-radius: 94% 6% 93% 7% / 7% 87% 13% 93% ;
+    padding: 10px;
+    border-radius: 94% 6% 93% 7% / 7% 87% 13% 93%;
 }
 
 a:visited {
-    color: #06aa7c;
-  }
+    color: #0c5843;
+}
 
-  a:hover {
-    color: #0f0f4e; 
-  }
+a:hover {
+    color: #0f0f4e;
+}
+
+.container {
+    border: 2px solid #0f0f4e;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    background: rgb(6, 170, 124);
+    background: radial-gradient(circle, rgba(6, 170, 124, 0.2) 0%, rgba(15, 15, 78, 0.2) 100%);
+}
 
 #carousel {
     display: flex;
@@ -53,14 +64,19 @@ a:visited {
     align-items: center;
     height: 100%;
     padding: 2%;
+
 }
 
 .slide {
     display: none;
+    border: 2px solid #0f0f4e;
+    border-radius: 94% 6% 93% 7% / 7% 87% 13% 93%;
 }
 
 .slide.active {
     display: block;
+    border: 2px solid #0f0f4e;
+    border-radius: 94% 6% 93% 7% / 7% 87% 13% 93%;
 }
 
 input[type="text"] {
@@ -70,22 +86,30 @@ input[type="text"] {
     font-size: 16px;
 }
 
-button {
-    color: #06aa7c;
-    margin-top: 10px;
-    margin-left: 30%;
-    justify-content: center;
-    background: rgb(6,170,124);
-    background: linear-gradient(0deg, rgba(6,170,124,0.10135392047443981) 0%, rgba(36,36,181,0.1) 100%);
-    border: 2px solid #0f0f4e;
-    font-size: 100%;
-    border-radius: 94% 6% 93% 7% / 7% 87% 13% 93% ;
+.imagesCategorie {
+    padding: 1em;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
 ul {
     list-style-type: circle;
     margin-left: 30%;
+}
+
+button {
+    color: #06aa7c;
+    margin-top: 10px;
+    margin-left: 30%;
+    justify-content: center;
+    background: rgb(6, 170, 124);
+    background: linear-gradient(0deg, rgba(6, 170, 124, 0.2) 0%, rgba(15, 15, 78, 0.2) 100%);
+    border: 2px solid #0f0f4e;
+    font-size: 100%;
+    border-radius: 94% 6% 93% 7% / 7% 87% 13% 93%;
+
 }
 
 .green {
