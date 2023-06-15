@@ -89,8 +89,8 @@ input[type="text"] {
 .imagesCategorie {
     padding: 1em;
     display: flex;
-  justify-content: center;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -115,4 +115,45 @@ button {
 .green {
 
     color: #0f0f4e;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+}
+
+.health-bars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.health-bar {
+    width: 200px;
+    height: 20px;
+    border: 1px solid #000;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.health-bar .bar {
+    height: 100%;
+    background-color: green;
+}
+
+.log {
+    text-align: left;
+    margin-top: 20px;
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.player-log {
+    color: blue;
+}
+
+.monster-log {
+    color: red;
 }

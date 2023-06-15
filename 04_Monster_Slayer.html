@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Monster Slayer</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>MONSTER SLAYER</h1>
+  <h1>MONSTER SLAYER</h1>
   </header>
 
   <nav>
@@ -21,10 +23,31 @@
   <br>
 
   <div class="imagesCategorie">
-  <img src="images/Monster.jpg" alt="Fighter"></div>
+    <img src="images/Monster.jpg" alt="Fighter">
+  </div>
 
-  <br>
+  <div class="players">Joueur VS Monstre</div>
+
+  <div class="health-bars">
+    <div class="health-bar" id="playerHealthBar">
+      <div class="bar" id="playerHealth"></div>
+    </div>
+
+    <div class="health-bar" id="monsterHealthBar">
+      <div class="bar" id="monsterHealth"></div>
+    </div>
+  </div>
+
+  <button class="button" onclick="attack()">Attaque</button>
+  <button class="button" onclick="specialAttack()">Attaque spéciale</button>
+  <button class="button" onclick="heal()">Soin</button>
+  <button class="button" onclick="giveUp()">Abandon</button>
+  <button class="button" onclick="restart()">Recommencer</button>
+
+  <div class="log" id="combatLog"></div>
+  </div>
 
   <script src="04_Monster_Slayer.js"></script>
 </body>
+
 </html>
